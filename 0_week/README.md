@@ -6,8 +6,6 @@
   * [C++ Code Files](#c-code-files)
   * [Terminal](#terminal)
   * [Git - OPTIONAL](#git---optional)
-- [General Info](#general-info)
-  * [Office Hours](#office-hours)
 
 <!-- tocstop -->
 
@@ -39,10 +37,3 @@
 9. Add - `git add ...`
 10. Commit - `git commit -m "..."`
 11. Push - `git push origin main`
-
-# General Info
-## Office Hours
-All office hours are held in ECCS 114A, 114C, 114D - the three rooms to the left the moment you enter CSEL
-My hours:
-- Monday - 4-5 pm
-- Wednesday - 2-4 pm
