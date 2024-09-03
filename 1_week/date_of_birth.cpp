@@ -8,7 +8,7 @@ int main() {
     cout << "Enter the number for the month you were born in: " << endl;
     cin >> month;
 
-    cout << "Enter the number for the day you were born in: " << endl;
+    cout << "Enter the number for the day you were born on: " << endl;
     cin >> day;
 
     cout << "Enter the number for the year you were born in: " << endl;
