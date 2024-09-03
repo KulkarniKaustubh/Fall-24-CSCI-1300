@@ -14,11 +14,11 @@
 
 ## Data Types
 
-`int` - a number / an integer
-`float` and `double` - a decimal number
-`char` - a character / alphabet
-`string` - a string of characters a.k.a a word
-`bool` - true or false
+- `int` - a number / an integer
+- `float` and `double` - a decimal number
+- `char` - a character / alphabet
+- `string` - a string of characters a.k.a a word
+- `bool` - true or false
 
 ## Variables
 
@@ -121,8 +121,8 @@ int main()
 
 ## Input
 
-`cout` is for standard output
-`cin` is for standard input
+- `cout` is for standard output
+- `cin` is for standard input
 
 ### How to get input from the user of your program?
 
