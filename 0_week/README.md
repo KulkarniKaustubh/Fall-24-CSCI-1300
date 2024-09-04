@@ -18,6 +18,11 @@
 ## Terminal
 - `ls` - list - command to show contents in the folder 
 - `cd` - change directory - command to change to a different directory
+    - `..` means parent directory
+    - `.` means current directory
+    Example in the terminal:
+    `cd subdirectory`
+    `cd ../parents_subdirectory`
 - the up arrow - run commands that you have run previously in the terminal
 
 ---
