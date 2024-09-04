@@ -2,154 +2,43 @@
 
 <!-- toc -->
 
-- [Week 1](#week-1)
-  * [Data Types](#data-types)
-  * [Variables](#variables)
-  * [Input](#input)
-    + [How to get input from the user of your program?](#how-to-get-input-from-the-user-of-your-program)
+- [Week 0](#week-0)
+  * [C++ Code Files](#c-code-files)
+  * [Terminal](#terminal)
+  * [Git - OPTIONAL](#git---optional)
 
 <!-- tocstop -->
 
-# Week 1
+# Week 0
 
-## Data Types
+## C++ Code Files
+- These files always end with a `.cpp` extension
+- ALWAYS SAVE your files - use `Ctrl-s` or `Cmd-s` to save the file
 
-- `int` - a number / an integer
-- `float` and `double` - a decimal number
-- `char` - a character / alphabet
-- `string` - a string of characters a.k.a a word
-- `bool` - true or false
+## Terminal
+- `ls` - list - command to show contents in the folder 
+- `cd` - change directory - command to change to a different directory
+    - `..` means parent directory
+    - `.` means current directory
+    Example in the terminal:
+    `cd subdirectory`
+    `cd ../parents_subdirectory`
+- the up arrow - run commands that you have run previously in the terminal
 
-## Variables
+---
 
-Rules:
-- Has to start with an alphabet or an underscore `_`
-- Can contain numbers in between or at the end
-- They have to be unique
-- They cannot have special characters except underscore `_`
+## Git - OPTIONAL
 
-Examples:
-- `int`
+**This will be covered in the next class based on interest!**
 
-```cpp
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    int a = 10;
-    cout << "a is: " << a << endl;
-
-    return 0;
-}
-```
-
-- `float` and `double`
-
-```cpp
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    float f = 10.01;
-    double d = 10.879845;
-
-    cout << "f is: " << f << endl;
-    cout << "d is: " << d << endl;
-
-    return 0;
-}
-```
-
-- `char`
-
-```cpp
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    // a char will ALWAYS have single quotes
-    // a char will ALWAYS have one alphabet
-    char ch = 'A';
-    cout << "ch is: " << ch << endl;
-
-    return 0;
-}
-```
-
-- `string`
-
-```cpp
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    // a string will ALWAYS have double quotes
-    // a char can have one/more than one alphabet(s)
-    string str1 = "A";
-    string str2 = "CSCI 1300";
-
-    cout << "str1 is: " << str1 << endl;
-    cout << "str2 is: " << str2 << endl;
-
-    return 0;
-}
-```
-
-- `bool`
-
-```cpp
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    bool b = true;
-    cout << "b is: " << b << endl;
-
-    return 0;
-}
-```
-
-## Input
-
-- `cout` is for standard output
-- `cin` is for standard input
-
-### How to get input from the user of your program?
-
-For example, you want to get numbers / integers from the user. Here is how you could do it. Let's take in the user's date of birth:
-
-```cpp
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    int month, day, year;
-
-    cout << "Enter the number for the month you were born in: " << endl;
-    cin >> month;
-
-    cout << "Enter the number for the day you were born on: " << endl;
-    cin >> day;
-
-    cout << "Enter the number for the year you were born in: " << endl;
-    cin >> year;
-
-    cout << "You were born on " << month << "/" << day << "/" << year << endl;
-
-    return 0;
-}
-```
-
-You can find this code [here](./date_of_birth.cpp) as well.
+1. Create a [GitHub](https://www.github.com) account
+2. Install `git` on your machine (Google - "how to install git" along with your OS)
+3. Create a [Classic Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
+4. Copy the Personal Access Token into a file
+5. Create a **private** repository on GitHub (for example, it can be named "CSCI-1300")
+6. Clone this repository by copying the HTTPS link and running `git clone <https link>`
+7. Type in your username, and for the password, paste in the Personal Access Token
+8. Change repository remote to the SSH remote
+9. Add - `git add ...`
+10. Commit - `git commit -m "..."`
+11. Push - `git push origin main`

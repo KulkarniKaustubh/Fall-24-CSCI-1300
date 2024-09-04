@@ -2,8 +2,8 @@
 
 Notes for students based on weekly recitations
 
-- [Week 0](./0_week)
 - [Week 1](./1_week)
+- [Week 2](./2_week)
 
 # General Info
 
