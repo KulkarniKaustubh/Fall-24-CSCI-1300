@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-- [Week 1](#week-1)
+- [Week 2](#week-2)
   * [Data Types](#data-types)
   * [Variables](#variables)
   * [Input](#input)
@@ -10,15 +10,16 @@
 
 <!-- tocstop -->
 
-# Week 1
+# Week 2
 
 ## Data Types
 
-- `int` - a number / an integer
-- `float` and `double` - a decimal number
-- `char` - a character / alphabet
+- `int` - a number / an integer - 4 bytes
+- `float` - a decimal number - 4 bytes
+- `double` - a decimal number - 8 bytes
+- `char` - a character / alphabet - 1 byte
 - `string` - a string of characters a.k.a a word
-- `bool` - true or false
+- `bool` - true or false - 1 byte
 
 ## Variables
 

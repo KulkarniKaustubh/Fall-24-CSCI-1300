@@ -2,14 +2,14 @@
 
 <!-- toc -->
 
-- [Week 0](#week-0)
+- [Week 1](#week-1)
   * [C++ Code Files](#c-code-files)
   * [Terminal](#terminal)
   * [Git - OPTIONAL](#git---optional)
 
 <!-- tocstop -->
 
-# Week 0
+# Week 1
 
 ## C++ Code Files
 - These files always end with a `.cpp` extension
