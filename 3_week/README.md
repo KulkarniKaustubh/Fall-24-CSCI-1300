@@ -7,6 +7,10 @@
     + [Relational Operators](#relational-operators)
     + [Logical Operators](#logical-operators)
     + [Operator Examples](#operator-examples)
+  * [If-Else](#if-else)
+    + [If and Nested If](#if-and-nested-if)
+    + [Else](#else)
+    + [What happens if you use `=` instead of `==`?](#what-happens-if-you-use--instead-of-)
 
 <!-- tocstop -->
 
