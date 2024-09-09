@@ -34,8 +34,8 @@
 
 ### Operator Examples
 
-`4 < 5` - gives us `true` - `true` is also represented as `1`
-`4 > 5` - gives us `false` - `false` is also represented as `0`
+- `4 < 5` - gives us `true` - `true` is also represented as `1`
+- `4 > 5` - gives us `false` - `false` is also represented as `0`
 
 The `&&` operation will result in `true` ONLY if both conditions are `true`
 - `(4 < 5) && (4 > 5)` - `false`
