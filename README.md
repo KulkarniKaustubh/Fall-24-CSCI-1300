@@ -4,6 +4,7 @@ Notes for students based on weekly recitations
 
 - [Week 1](./1_week)
 - [Week 2](./2_week)
+- [Week 3](./3_week)
 
 # General Info
 
